@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <style>
+             body{background-image:url("brown2.jpg") ;color:#E7EAE5;}
+             a{color:white;text-decoration:none;}
+            .navbar{position:fixed; padding:25px 9%; display:flex;justify-content:space-between;align-items:center;z-index:100;left:0; top:0; width:100%; font-family:Calibri;}
+            .navbar .logo{font-size:50px; font-weight:700; color:navajowhite;font-family:LORA;}
+            .navbar ul{ display:flex;}
+            .navbar ul li{list-style:none; margin-left:45px; margin-right:10px;}
+            .navbar ul li a{font-size:20px; font-weight:500;}
+            .navbar ul li:hover a{ color:greenyellow;}
+            .content{padding:90px;}
+            .forms{border:5px solid wheat;padding:40px; width: 400px; display:flex; flex-direction: column; gap: 5px;  border-radius:10px;}
+            .form1 , .form2{ display:inline-block; width:45%; vertical-align: top;}
+            input{width:90%; height:35px;font-size:16px;padding:5px; margin-bottom:10px;background-color: #E7EAE5;}
+            .btn{color:black;background-color:black;font-size:20px;padding:10px;border-radius:5px;text-align:center;width:200px;margin-top:15px;}
+            button:hover { transform: scale(1.05);}
+            label{font-size:20px;}
+            h1{font-size:40px; font-weight:500px;}
+        </style>
+    </head>
+    <body>
+         <nav class="navbar">
+                <a href="#" class="logo"> BAKERY </a> 
+            <ul>
+                <li><a href="PORTFOLIO.html">PORTFOLIO </a></li>
+                <li><a href="home.html">WEBSITE </a></li>
+                <li><a href="menu.html">MENU</a></li>
+                <li><a href="order.html">ORDER</a> </li>
+                <li><a href="contact.html">CONTACT</a></li>
+                 <li><a href="#">EDUCATION</a> </li>
+            </ul>
+            </nav>
+            <center>
+            <div class="content">
+                <h1>Order Here</h1>
+                <h2>Baked with care, packed with love, from our bakery to your door.</h2>
+            </div>
+            <div class="form1">
+                <form class="forms">
+                    <label for="name">NAME:</label>
+                    <input type="text" id="name" placeholder="Your name">
+                    <label for="address">ADDRESS:</label>
+                    <input type="text" id="address" placeholder="Delivery Address">
+                    <label for="number">Phone-number</label>
+                    <input type="text" id="number" placeholder="+92-xxxxxxxxx">
+                </form>
+            </div>
+            <div class="form2">
+                <form class="forms">
+                <label for="order">Order:</label>
+                <input type="text" id="order" placeholder="Cake,donut,bread">
+                <label for="quantity">Quantity:</label>
+                <input type="text" id="quantity" placeholder="1,2,3,...">
+                <label for="code">Voucher Code:</label>
+                <input type="text" id="code" placeholder="Code if valid">
+                    </form>
+            </div>
+            <button class="btn"><a href="orderdata.html"> Place Order</a></button>
+            </center>
+             </body>
+</html>

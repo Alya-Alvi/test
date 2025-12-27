@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> CONTACT US</title>
+        <style>
+            body{background-image:url("brown2.jpg"); color:palegoldenrod;}
+             a{color:white;text-decoration:none;}
+            .navbar{position:fixed; padding:25px 9%; display:flex;justify-content:space-between;align-items:center;z-index:100;left:0; top:0; width:100%; font-family:Calibri;}
+            .navbar .logo{font-size:50px; font-weight:700; color:navajowhite;font-family:LORA;}
+            .navbar ul{ display:flex;}
+            .navbar ul li{list-style:none; margin-left:45px; margin-right:10px;}
+            .navbar ul li a{font-size:20px; font-weight:500;}
+            .navbar ul li:hover a{ color:greenyellow;}
+            .content{padding:90px;}
+            .content h1{font:lora;font-size:35px;font-weight:500px;}
+            .content h3{font-size:20px;}
+            .forms{padding:40px; width: 400px; display:flex; flex-direction: column; gap: 5px; border:10px solid #E7EAE5; border-radius:10px;}
+            label {font-size:19px;; font-weight: bold;color: white; }
+            input {flex: 1; padding: 12px;font-size: 16px;border-radius: 5px;border: none;outline: none;}
+              button:hover { transform: scale(1.05);}
+              .btn{background-color:black;font-size:20px;padding:10px;border-radius:5px;text-align:center;width:200px;}
+
+        </style>
+    </head>
+    <body>
+        <nav class="navbar">
+                <a href="#" class="logo"> BAKERY </a> 
+            <ul>
+                <li><a href="PORTFOLIO.html">HOME </a></li>
+                <li><a href="home.html">WEBSITE </a></li>
+                <li><a href="menu.html">MENU</a></li>
+                <li><a href="order.html">ORDER</a> </li>
+                <li><a href="contact.html">CONTACT</a></li>
+                 <li><a href="#">EDUCATION</a> </li>
+            </ul>
+            </nav>
+            <center>
+            <div class="content">
+                <h1>Get In Touch</h1>
+                <h3><b>Phone</b>:+92 123456</h3>
+                <h3><b>E-mail</b>:glazemaze@gmail.com</h3>
+                <h3><b>Location</b>:Lahore,Pakistan</h3>
+                <form class="forms">
+                    <label for="name">NAME:</label>
+                    <input type="text" id="name" placeholder="Your Name Here"><br>
+                    <label for="mail">E-mail:</label>
+                    <input type="text" id="mail" placeholder="Your E-mail Here"><br>
+                    <label for="number">Phone-Number:</label>
+                    <input type="text" id="number" placeholder="Your Phone-Number Here"><br>
+                    <label for="message">Message:</label>
+                    <input type="text" id="message" placeholder="Type your message Here..."><br>
+                    <center><button class="btn"><a href="send.html"> Send Message </a></button></center>
+                </form>
+            </div>
+            </center>
+        
+    </body>
+</html>
